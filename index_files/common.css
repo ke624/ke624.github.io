@@ -1,0 +1,97 @@
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,th,td,p,pre,form,input,textarea{padding:0;margin:0;}
+article,aside,figure,footer,header,hgroup,mark,nav,menu,section,video{display:block;}
+body, button, input, select, textarea{ font:14px/1.5 '微软雅黑', sans-serif; color:#333;}
+address,cite,dfn,em,var{font-style:normal}
+pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}
+h1{ font-size:26px;} h2{ font-size:22px;} h3{ font-size:18px;} h4{ font-size:16px;} h5{ font-size:14px;} h6{ font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;}
+li,ol,ul{list-style:none}
+img{border:0 none;}
+a{ outline:none; text-decoration:none; color:#333;}
+a:focus{ outline:none;}
+body{ background:#fff; max-width:1920px;}
+
+#header{ width:100%; height:90px; border-bottom:1px solid #b2b2b2; background:#fff; position:fixed; top:0; z-index:100;}
+#hd_main{ width:1200px; margin:0 auto;}
+h2#logo{ float:left; margin-top:18px;}
+#hd_contact{ float:right; margin-top:10px; position:relative;}
+#hd_contact p{ float:left; margin-left:15px; line-height:25px; color:#666; background:url(../img/hd_tel_bg.png) left center no-repeat; padding:0 5px 0 20px ;}
+#hd_contact img{ float:left; margin-left:10px; height:16px; cursor:pointer;}
+#hd_ct_wx{ display:none; width:130px; height:130px; position:absolute; z-index:101; top:25px; right:0;}
+#hd_ct_wx img{ width:120px; height:120px; padding:4px; border:1px solid #EEE; background:#fff; margin:0;}
+
+#nav{ width:900px; float:right; margin-top:10px;}
+#nav ul{ float:right;}
+#nav li{ float:left; padding-left:32px;}
+#nav li a{ display:inline-block; line-height:30px; font-size:16px;}
+#nav li a:hover{ border-bottom:2px solid #df0b19; color:#df0b19;}
+
+.top_ban{ width:100%; min-width:1200px; overflow:hidden;}
+.top_ban div{ width:1920px; position:relative; left:50%; margin-left:-960px; text-align:center;}
+.top_ban img{ vertical-align:bottom;}
+.ban_1{ margin-top:91px;}
+
+.tit{ width:100%; text-align:center;}
+.tit h3{ background:url(../img/tit_line.png) center bottom no-repeat; padding-bottom:15px; font-size:36px; color:#444; font-weight:normal;}
+.tit p{ font-size:16px; color:#848484; margin-top:10px;}
+
+
+#bt_pn{ width:100%; height:120px; background:#181a1d; text-align:center; clear:both;}
+#bt_pn a{ display:inline-block; width:40px; height:40px; overflow:hidden; border-radius:100%; background:url(../img/page_fx2.png); margin-top:40px; margin-left:10px; text-align:center;}
+#bt_pn a em{ display:none; text-align:center; color:#fff; font-size:12px; line-height:15px; margin-top:5px;}
+#bt_pn a.a1{ background-position:0 0;}
+#bt_pn a.a2{ background-position:-40px 0;}
+#bt_pn a.a3{ background-position:-80px 0;}
+#bt_pn a.a1:hover{ background-position:0 -40px;}
+#bt_pn a.a2:hover{ background-position:-40px -40px;}
+#bt_pn a.a3:hover{ background-image:none; background-color:#c00;}
+#bt_pn a.a3:hover em{ display:block;}
+
+
+.page{ width:100%; float:left; padding:30px 0; text-align:center; line-height:40px; background:#181a1d;}
+.page a{ display:inline-block; width:40px; height:40px; margin-left:10px; background:url(../img/page_fx2.png); color:#666; transition:all .6s;}
+.page a.next{ background-position:-40px 0;}
+.page a.prev:hover{ background-position:0 -40px;}
+.page a.next:hover{ background-position:-40px -40px;}
+
+/*
+.page span.current{  display:inline-block; width:40px; height:40px; margin-left:5px; border:#CCC solid 1px; border-radius:100%; background:#c6000d; color:#fff;}
+.page a:hover{color:#FFF; background:#c6000d;}
+*/
+#ft_ct{ width:100%; min-width:1200px; height:110px; padding:15px 0; background:#c6000d; clear:both;}
+#ft_ct_main{ width:1200px; margin:0 auto; color:#fff;}
+#ft_ct_tit{ width:200px; float:left;}
+#ft_ct_tit h4{ font-family: "Times New Roman"; font-size: 40px; font-weight: bold;}
+#ft_ct_tit h5{ font-size:20px; font-weight:normal;}
+#ft_ct_main dl{ width:480px; float:left; padding-left:20px;}
+#ft_ct_main dt{ width:100px; float:left; margin-top:15px; text-align:center; line-height:20px; font-size:12px;}
+#ft_ct_main dd{ width:380px; float:left;}
+#ft_ct_main dd h3{ font-size:24px; margin-top:15px;}
+#ft_ct_main dd p{ margin-top:5px;}
+
+#footer{ width:100%; min-width:1200px; background:#181a1d; color:#999; line-height:25px; text-align:center; padding:20px 0; font-size:14px;}
+#ft_nav{ width:1200px; margin:0 auto; text-align:center;}
+#ft_nav li{ display:inline-block;}
+#ft_nav li span{ display:inline-block; padding:0 15px; color:#999;}
+#ft_nav li a{ display:inline-block; color:#999;}
+#ft_nav li a:hover{ color:#fff;}
+#ft_txt{ width:100%; }
+
+
+#kefu{ width:50px; position:fixed; right:0; top:50%; transform:translateY(-50%); z-index:1001;}
+#return_top{ width:50px; height:45px; background:url(../img/kefu/top.png); cursor:pointer;}
+#kf_qq{ position:relative; width:50px; height:50px;}
+#kf_q1{ position:absolute; width:50px; height:50px; background:url(../img/kefu/qq.png) center center no-repeat; border-top:1px solid #fff;}
+#kf_q2{ display:none; position:absolute; top:1px; right:0; width:140px; height:50px; background:url(../img/kefu/qq.png) left center no-repeat #d51737;}
+#kf_q2 a{ display:block; height:50px; color:#fff; line-height:50px; width:90px; padding-left:50px; font-size:16px;}
+#kf_tel{ position:relative; width:50px; height:50px;}
+#kf_t1{ position:absolute; width:50px; height:50px; background:url(../img/kefu/tel.png) center center no-repeat #7f7f7f; border-top:1px solid #fff;}
+#kf_t2{ display:none; position:absolute; top:1px; right:0; width:160px; height:50px; background:url(../img/kefu/tel.png) 9px center no-repeat #d51737;}
+#kf_t2 p{ float:right; width:105px; line-height:20px; padding:5px; color:#fff; font-size:14px;}
+#kf_wx{ position:relative; width:50px; height:50px;}
+#kf_wx1{ position:absolute;  width:50px; height:50px; background:url(../img/kefu/wx.png) center center no-repeat #7f7f7f; border-top:1px solid #fff;}
+#kf_wx:hover #kf_wx1{ background-color:#d41737;}
+#kf_wx2{ display:none; position:absolute; bottom:0; right:50px; width:230px; height:148px; background:#fff; border:1px solid #dbdbdb;}
+#kf_wx2 ul{ width:100%; float:left;}
+#kf_wx2 li{ width:78px; float:left; margin-top:25px; margin-left:25px; text-align:center;}
